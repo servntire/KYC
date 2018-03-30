@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KYC</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+  <div class="container-fluid">
+    <header>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://servntire.com/wp-content/uploads/2018/01/logo@2x.png" width="100" alt="Logo" title="Logo" />
+        </div>
+        <div class="col-md-6 text-right">
+          <ul>
+            <li><a href="index.html">Add new User</a></li>
+            <li><a href="view-user.html">View User</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form action="#" id="AddUser">
+          <div class="form-group">
+            <label>User Address</label>
+            <input type="text" class="form-control" id="useradd" name="userID" placeholder="Enter User address">
+          </div>
+          <div class="form-group">
+            <label>User ID</label>
+            <input type="text" class="form-control" id="userID" name="userID" placeholder="Enter User ID">
+          </div>
+          <div class="form-group">
+            <label>Age</label>
+            <input type="text" class="form-control" id="userAge" name="userAge" placeholder="Enter User Age">
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <select class="form-control" id="userGender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Permanent Address</label>
+            <input type="text" class="form-control" id="paymentAddress" name="paymentAddress" placeholder="Enter Permanent Address">
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" id="btn-adduser">Add User</button>
+            <button type="submit" class="btn btn-primary" id="btn-addadmin">Add Admin</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/web3.min.js"></script>
+      <script src="js/truffle-contract.js"></script>
+      <script src="js/app.js"></script>
+    </body>
+  </html>
