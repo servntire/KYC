@@ -25,10 +25,10 @@ contract User{
 	event RequestedNewUser(address _newUser, uint256 _newUserId);
 	event ApprovedUser(address _approvedUser);
 
-	function User(uint _userId, uint _age, Gender _gender, string _permanentAddress){
+	function User(){
 		creatorAdmin = msg.sender;
-		userIds[_userId] = msg.sender;
-		userDetails[msg.sender] = UserDetail(_userId, State.Approved, Type.SuperAdmin, _age, _gender, _permanentAddress, msg.sender, now);
+		userIds[1] = msg.sender;
+		userDetails[msg.sender] = UserDetail(1, State.Approved, Type.SuperAdmin, 22, Gender.Male,"CAO@Servntire", msg.sender, now);
 	}
 
 	// Check if the caller is a Super Admin.
