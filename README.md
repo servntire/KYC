@@ -18,7 +18,7 @@ external enforcement mechanism. They render transactions **traceable**,
 
 The smart contracts
 are developed for the **ethereum** blockchain. Ethereum is a
-**decentralized platform that runs smart contracts. **Contracts**
+**decentralized** platform that runs smart contracts. **Contracts**
 can be deployed  on the **Ethereum Virtual Machine** (EVM). Once
 deployed it can be accesed globally. These contracts are enforced and
 certified by parties that we call miners. Miners are multiple
@@ -95,7 +95,7 @@ advicable for development.
 Ethereum network is
 called ‘**livenet**’ and there exists multiple ‘**testnet**’
 which are copies of ethereum network. Like ethereum, these networks
-have currency called ‘t**est ether**’s which can be spent to
+have currency called ‘**test ether**’s which can be spent to
 execute a transcation on the network. Now the important difference is
 that you can get free ‘test ether’s here unlike real valued
 ether.
@@ -150,7 +150,7 @@ used to work with the contract. A backend  javascript framework,
 the network, identify the contract and perform transactions. There
 are two kinds of transaction operation on a contract:
 
-# 1.Call
+** 1.Call**
 
 A call is a local invocation of a contract function that does not
 broadcast or publish anything on the blockchain. It is a read-only
@@ -159,7 +159,7 @@ happen in a transaction, but discards all the state changes when it
 is done. It is synchronous and the return value of the contract
 function is returned immediately.
 
-# 2.Transaction
+**2.Transaction**
 
 A transaction is broadcasted to the network, processed by miners,
 and if valid, is published on the blockchain. It is a write-operation
@@ -230,7 +230,7 @@ reasonable ‘Gas limit’ and ‘Gas Price’  according to network.
 [https://rinkeby.etherscan.io/tx/](https://rinkeby.etherscan.io/tx/)
 to know the status of transaction. If it is a **success**, your
 contract is deployed. In the ‘**To**’ section **“[Contract
-****[0](https://rinkeby.etherscan.io/address/0xf4aa05b3ea41759badbfa9973533b63a3bfba0f1)x0000000000000000000000000000000000****
+0x0000000000000000000000000000000000
 Created]”** will be shown. This is your **contract address**.
 Copy it. Click on it to know about the incoming transaction to the
 contract.
