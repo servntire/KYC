@@ -1,4 +1,4 @@
-h2.cjk { font-family: "Noto Sans CJK SC Regular"; }h2.ctl { font-family: "FreeSans"; }p { margin-bottom: 0.25cm; line-height: 120%; }a:link { }
+
 
 **Smart
 Contracts**
@@ -7,7 +7,7 @@ Smart contracts are
 **self-executing** contracts with the terms of the agreement
 between buyer and seller being directly written into lines of code.
 The code and the agreements contained therein exist across a
-**distributed**, **decentralized**[blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
+**distributed**, **decentralized** [blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
 network. Smart contracts permit trusted **transactions** and
 **agreements** to be carried out among disparate, anonymous
 parties without the need for a central authority, legal system, or
@@ -18,7 +18,7 @@ external enforcement mechanism. They render transactions **traceable**,
 
 The smart contracts
 are developed for the **ethereum** blockchain. Ethereum is a
-**decentralized platform that runs smart contracts. ****Contracts**
+**decentralized platform that runs smart contracts. **Contracts**
 can be deployed  on the **Ethereum Virtual Machine** (EVM). Once
 deployed it can be accesed globally. These contracts are enforced and
 certified by parties that we call miners. Miners are multiple
@@ -85,8 +85,7 @@ A command line tool
 such as **truffle** or online ide such as **ReMix** can be used
 to compile.
 
-**Network
-**
+**Network**
 
 The smart contracts
 are deployed on the ethereum network on the EVM. But any transaction
@@ -147,11 +146,11 @@ Interface**
 
 A web app can be
 used to work with the contract. A backend  javascript framework,
-**web3.js **,can intract with the blockchain. It can connect to
+**web3.js**, can intract with the blockchain. It can connect to
 the network, identify the contract and perform transactions. There
 are two kinds of transaction operation on a contract:
 
-### 1.Call
+# 1.Call
 
 A call is a local invocation of a contract function that does not
 broadcast or publish anything on the blockchain. It is a read-only
@@ -160,7 +159,7 @@ happen in a transaction, but discards all the state changes when it
 is done. It is synchronous and the return value of the contract
 function is returned immediately.
 
-### 2.Transaction
+# 2.Transaction
 
 A transaction is broadcasted to the network, processed by miners,
 and if valid, is published on the blockchain. It is a write-operation
@@ -230,7 +229,7 @@ reasonable ‘Gas limit’ and ‘Gas Price’  according to network.
 6. Click on the transaction to go to
 [https://rinkeby.etherscan.io/tx/](https://rinkeby.etherscan.io/tx/)
 to know the status of transaction. If it is a **success**, your
-contract is deployed. In the ‘**To**’ section **“****[Contract
+contract is deployed. In the ‘**To**’ section **“[Contract
 ****[0](https://rinkeby.etherscan.io/address/0xf4aa05b3ea41759badbfa9973533b63a3bfba0f1)x0000000000000000000000000000000000****
 Created]”** will be shown. This is your **contract address**.
 Copy it. Click on it to know about the incoming transaction to the
